@@ -100,28 +100,24 @@ Audio(waveform1, rate=sample_rate1)
  <source src="https://docs.google.com/uc?export=open&id=1QC39H__aXe-enba0BRPMnbi_osk74kdy" type='audio/mp3' />
 </audio>
 
-https://drive.google.com/file/d/1QC39H__aXe-enba0BRPMnbi_osk74kdy/view?usp=share_link
-
 <audio controls >
  <source src="https://docs.google.com/uc?export=open&id=1WPHpp5ogr9RObpafP56ui2xTlybJnoYp" type='audio/mp3' />
 </audio>
-
-https://drive.google.com/file/d/1WPHpp5ogr9RObpafP56ui2xTlybJnoYp/view?usp=share_link
 
 ### 2) Convolution reverb
 
 Convolution reverb는 깨끗한 오디오를 다른 환경에서 녹음된 것처럼 변형시켜주는 기능이다. 이번 예제에서는 RIR (Room Impulse Response)을 사용해 오디오가 회의실에서 녹음된 것과 같은 효과를 줄 것이다.
 
 다음은 회의실과 같은 환경에서 박수를 친 오디오이다.
+
 ```python
 rir_raw, sample_rate = torchaudio.load(SAMPLE_RIR)
 Audio(rir_raw, rate=sample_rate)
 ```
+
 <audio controls >
  <source src="https://docs.google.com/uc?export=open&id=1FraqQJ4M9bUfmbHe2nFJtD1EVZfDl15d" type='audio/mp3' />
 </audio>
-
-https://drive.google.com/file/d/1FraqQJ4M9bUfmbHe2nFJtD1EVZfDl15d/view?usp=share_link
 
 이 원본으로부터 1) 박수소리(main impulse) 부분만 잘라내고, 2) 이를 normalize한 뒤, 3) 시간축을 기준으로 뒤집는다(flip).
 
