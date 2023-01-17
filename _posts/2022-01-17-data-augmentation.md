@@ -2,7 +2,7 @@
 layout: post
 title:  "3. Data Augmentation"
 date:   2022-01-17 17:20:00 +0530
-categories: Pytorch
+categories: [Pytorch]
 ---
 
 Pytorch에서는 오디오 데이터를 뻥튀기하는 다양한 방법들을 제공한다.
