@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -20,9 +20,6 @@ plainwhite:
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/IMG_1974.jpeg" # the path from the base directory of the site to the image to display (no / at the start)
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
-  navigation:
-    - title: My Work
-      url: "/_posts"
   condensed_mobile:
     #- home
     - page
