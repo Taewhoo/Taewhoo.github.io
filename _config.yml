@@ -59,6 +59,3 @@ plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
 remote_theme: samarsault/plainwhite-jekyll
-
-plainwhite:
-
